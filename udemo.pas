@@ -6,24 +6,21 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,uDGProcessList,injection,ntdll,usupport, ComCtrls;
+  Dialogs, StdCtrls,uDGProcessList,injection,ntdll, ComCtrls;
 
 type
   TForm1 = class(TForm)
     Button1: TButton;
     txtprocess: TEdit;
-    Button2: TButton;
     txtpid: TEdit;
     RadioButton1: TRadioButton;
     RadioButton2: TRadioButton;
     RadioButton3: TRadioButton;
-    RadioButton4: TRadioButton;
     StatusBar1: TStatusBar;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     txtdll: TEdit;
-    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);

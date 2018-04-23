@@ -5,8 +5,8 @@ uses
   udemo in 'udemo.pas' {Form1},
   injection in 'injection.pas',
   ntdll in 'ntdll.pas',
-  uDGProcessList in 'uDGProcessList.pas',
-  uSupport in 'uSupport.pas';
+  uDGProcessList in 'uDGProcessList.pas';
+
 
 {$R *.res}
 
